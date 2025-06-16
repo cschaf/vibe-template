@@ -12,7 +12,7 @@ export default defineConfig({
           registerType: 'autoUpdate',
           includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png'],
           devOptions: {
-              enabled: true,
+              enabled: false,
           },
           manifest: {
               name: 'Demo App',
