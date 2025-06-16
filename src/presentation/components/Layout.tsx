@@ -1,4 +1,5 @@
-import React, { useState, ReactNode } from 'react';
+import React, { useState } from 'react';
+import type { ReactNode } from 'react'; // Changed for type-only import
 import Header from './Header'; // Ensure this path
 import Sidebar from './Sidebar'; // Ensure this path
 import Footer from './Footer'; // Ensure this path
