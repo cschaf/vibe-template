@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './components/Layout';
+import Layout from './presentation/components/Layout'; // Updated path
 // Ensure your global CSS with Tailwind directives is imported here or in index.tsx
 // For example: import './index.css';
 
