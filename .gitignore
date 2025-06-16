@@ -309,3 +309,4 @@ sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react,node,intellij+all,visualstudiocode,nextjs,git
 /vibe-template.iml
+/dev-dist/
