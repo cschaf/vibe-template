@@ -1,39 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-TF-8">
+    <meta charset="UTF-8"> <!-- Corrected from UTF-TF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web App Layout</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" /> <!-- Standard Vite favicon link -->
+    <title>Demo App</title> <!-- Changed title -->
 </head>
 <body>
-    <header class="header">
-        <button class="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">
-            <span class="hamburger-bar"></span>
-            <span class="hamburger-bar"></span>
-            <span class="hamburger-bar"></span>
-        </button>
-        <h1>Header</h1>
-    </header>
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <nav>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="main-content">
-            <h2>Main Content Area</h2>
-            <p>This is where the main content will go.</p>
-        </main>
-    </div>
-    <footer class="footer">
-        <p>Footer</p>
-    </footer>
-    <script src="script.js"></script>
+    <div id="root"></div> <!-- React root element -->
+    <!-- Vite will inject the script tag for main.tsx here -->
 </body>
 </html>
